@@ -1,0 +1,43 @@
+/*
+---------------------
+---FONT AND COLORS---
+---------------------
+*/
+.page {
+  font-family: 'Space Mono', monospace;
+}
+
+.first-heading {
+  font-family: 'Inconsolata'
+}
+
+.first-heading, .seond-heading {
+  color: #333333;
+}
+
+.error-text {
+  color: #4F4F4F;
+}
+
+.return-btn{
+  background-color: #333333;
+
+}
+
+.footer-text {
+  font-family: 'Montserrat';
+  color:#BDBDBD;
+
+}
+
+/*
+------------------------
+---RESPONSIVE SECTION---
+------------------------
+*/
+
+@media only screen and (min-width: 768px){
+  .page-elem{
+    margin-top: 100px !important
+  }
+}
